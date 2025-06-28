@@ -1,0 +1,43 @@
+@media only screen and (max-width: 768px) {
+
+
+  body {
+    overflow-x: hidden !important;
+  }
+
+
+
+}
+
+.hero-section {
+  background: #fff;
+  padding: 100px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.brand {
+  color: #036224;
+  font-weight: 700;
+}
+
+.slogan {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.hero-image {
+  width: 50%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

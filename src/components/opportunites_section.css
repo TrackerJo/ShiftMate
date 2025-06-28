@@ -1,0 +1,65 @@
+.opportunities-section {
+  position: relative;
+  width: 100%;
+  height: 800px;
+
+
+}
+
+.opportunities-div .title {
+
+
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+
+
+.opportunities-div {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  z-index: 1;
+  display: flex;
+
+  align-items: center;
+  color: var(--primary);
+  flex-direction: column;
+}
+
+.opportunities-div p {
+  font-size: 1.5rem;
+  text-align: center;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+
+  .opportunities-section {
+    height: 700px !important;
+  }
+
+  .opportunities-div h2 {
+    font-size: 2rem !important;
+  }
+
+  .opportunities-div p {
+    margin-top: -20px !important;
+    padding-bottom: 20px !important;
+    font-size: 0.8rem !important;
+  }
+
+
+}
+
+.opportunities-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  height: 500px;
+}

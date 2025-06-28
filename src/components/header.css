@@ -1,0 +1,51 @@
+.header {
+  padding: 10px 16px;
+  background: var(--primary);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  /* add a white green fade, white on left, green on right , have green start fading closer to left edge */
+  /* background: linear-gradient(to right, white, #209d50); */
+
+
+}
+
+.header img {
+  /* height: 60px; */
+  width: 50px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  /* padding-top: 102px; */
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-right: 30px;
+}
+
+.Logo {
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-title {
+    display: none;
+  }
+}
