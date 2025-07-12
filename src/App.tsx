@@ -8,25 +8,23 @@
 
 import './App.css'
 import Header from './components/header'
-
 import TitleSection from './components/title_section'
 import FeaturesSection from './components/features_section'
-
+import PricingSection from './components/pricing_section'
+import TestimonialsSection from './components/testimonials_section'
+import CTASection from './components/cta_section'
+import FAQSection from './components/faq_section'
 import ContactSection from './components/contact_section'
+import Footer from './components/footer'
 import Section from './components/section'
 
 function App() {
-
-
-
-
   return (
     <>
       <Header />
       <TitleSection />
       <FeaturesSection />
-      <Section title='Easy Shift Management' tiles={[
-
+      {/* <Section title='Easy Shift Management' tiles={[
         {
           title: "Filter Shifts",
           description: "Quickly filter shifts available to you, making it easy to find what you need. Managers and Admins can filter shifts by staffed or unstaffed to easily see what shifts need to be filled."
@@ -43,8 +41,6 @@ function App() {
           title: "Swap Shifts",
           description: "Effortlessly swap shifts with colleagues, allowing for greater flexibility in your schedule. This feature is particularly useful for employees who need to adjust their work hours or cover for each other."
         },
-
-
       ]} id='shift-management' />
       <Section title='Syncs to Google Calendar' tiles={[
         {
@@ -55,7 +51,6 @@ function App() {
           title: "Add Shifts from Calender to ShiftMate",
           description: "Easily add shifts from your Google Calendar to ShiftMate, allowing you to manage your schedule in one place."
         }
-
       ]} id='syncs-to-google-calendar' />
       <Section title='Conflict Management' tiles={[
         {
@@ -76,16 +71,17 @@ function App() {
           title: "In-App Messaging",
           description: "Communicate with your team members directly within the app, ensuring that important messages are never missed. Group chats automatically created for each shift, allowing for easy coordination and discussion among team members."
         },
-
         {
           title: "Push Notifications",
           description: "Get real-time push notifications for critical updates, ensuring that you stay connected and informed at all times. Whenever a shift is created, or edited, all relevant employees receive a notification, keeping everyone in the loop."
         }
-      ]} id='communication' />
+      ]} id='communication' /> */}
+      <PricingSection />
+      <TestimonialsSection />
+      <CTASection />
+      <FAQSection />
       <ContactSection />
-
-
-
+      <Footer />
     </>
   )
 }

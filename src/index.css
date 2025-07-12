@@ -24,6 +24,8 @@
 body {
   margin: 0;
   overflow-x: hidden;
+  scroll-padding-top: 80px;
+  /* Account for sticky header */
 }
 
 a {
@@ -32,7 +34,9 @@ a {
 
 }
 
-a:hover {}
+a:hover {
+  text-decoration: underline;
+}
 
 
 h1 {
@@ -122,7 +126,7 @@ button {
 button:hover {
   background-color: var(--primary-light);
 
-  border: 2px solid var(--primary);
+  /* border: 2px solid var(--primary); */
 }
 
 button:focus {
@@ -163,4 +167,8 @@ textarea {
 
 textarea:focus {
   outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }
