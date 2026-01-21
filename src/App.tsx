@@ -77,7 +77,7 @@ function App() {
         }
       ]} id='communication' /> */}
       <PricingSection />
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       <CTASection />
       <FAQSection />
       <ContactSection />
